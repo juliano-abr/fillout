@@ -1,5 +1,3 @@
-import { Conditions, ValueTypes } from "./constants";
-
 export type FilterClauseType = {
   id: string;
   condition: string;
