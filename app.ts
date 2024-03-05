@@ -10,7 +10,7 @@ app.use("/forms", formsRouter);
 const port = 8000;
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("This is the main forms route");
+  res.send("This is the main Fillout route");
 });
 
 app.listen(port, () => {
